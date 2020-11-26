@@ -1,4 +1,0 @@
-2020-05-08 15:48:46.6767 INFO récupération des boutique depuis la base de données
-2020-05-08 15:48:57.1441 INFO Boutique avec id :5 retournée
-2020-05-08 15:48:59.3616 INFO récupération des boutique depuis la base de données
-2020-05-08 15:49:01.5397 INFO récupération des boutique depuis la base de données

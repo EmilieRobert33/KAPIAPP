@@ -1,8 +1,0 @@
-2020-05-14 14:36:10.0199 INFO récupération des boutique depuis la base de données
-2020-05-14 14:36:28.5688 INFO récupération des boutique depuis la base de données
-2020-05-14 16:12:25.3055 INFO récupération des 5 boutique depuis la base de données
-2020-05-14 16:43:10.2214 INFO récupération des 5 boutique depuis la base de données
-2020-05-14 16:47:00.1124 INFO récupération des 5 boutique depuis la base de données
-2020-05-14 16:49:19.1267 INFO récupération des 5 boutique depuis la base de données
-2020-05-14 16:49:44.0864 INFO récupération des 5 boutique depuis la base de données
-2020-05-14 16:56:06.2691 INFO récupération des 5 boutique depuis la base de données

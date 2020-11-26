@@ -88,7 +88,7 @@ namespace KAPIAPP_App.Controllers
         }
 
         // GET: Evaluation/Create/idBoutique
-        [HttpGet]
+        [HttpGet("{id}")]
         public async Task<IActionResult> Create(int id)
         {
             var boutique = await _repository.Boutique.GetBoutiqueByIdAsync(id);
@@ -161,10 +161,10 @@ namespace KAPIAPP_App.Controllers
         }
 
         // TODO POST: Evaluation/Edit/5 !!!! créé un nouvel objet en écrasant l'ancien sans boutique ni user...
-        //si httpput erreur 405 si httppost pas d'erreur mais id boutique et user ecrasé
-        [HttpPut("{id}"), ActionName("Edit")]
+        //modifier EvaluationToEditDto
+        [HttpPost("{id}"), ActionName("Edit")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> EditPut(int id, EvaluationToEditDto evaluationEdit)
+        public async Task<IActionResult> EditPut(int id, [FromForm]EvaluationToEditDto evaluationEdit)
         {
             if (evaluationEdit.Id != id)
             {
@@ -209,7 +209,7 @@ namespace KAPIAPP_App.Controllers
         //TODO BUG erreur 405 avec httpDelete aussi
         //[HttpDelete("{id}"), ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        [HttpPost, ActionName("Delete")]
+        [HttpPost("{id}"), ActionName("Delete")]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var evaluation = await _repository.Evaluation.GetEvaluationByIdAsync(id);

@@ -78,8 +78,10 @@ namespace KAPIAPP_App
                 .Get<EmailConfiguration>();
             services.AddSingleton(emailConfig);
             services.AddScoped<IEmailSender, EmailSender>();
+
             services.AddScoped<IRepositoryWrapper, RepositoryWrapper>();
             services.AddSingleton<ILoggerManager, LoggerManager>();
+
             services.AddControllersWithViews();
             services.AddRazorPages();
         }
@@ -97,13 +99,8 @@ namespace KAPIAPP_App
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
-            //app.UseCors("CorsPolicy");
-            app.UseCors(builder =>
-            {
-                builder.WithOrigins("https://localhost:44381/")
-                .AllowAnyHeader()
-                .AllowAnyMethod();
-            });
+            app.UseCors("CorsPolicy");
+
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 

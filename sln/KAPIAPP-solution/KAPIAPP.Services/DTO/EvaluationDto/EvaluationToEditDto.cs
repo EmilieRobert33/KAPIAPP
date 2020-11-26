@@ -1,4 +1,5 @@
-﻿using System;
+﻿using KAPIAPP.Services.Entity;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -41,5 +42,8 @@ namespace KAPIAPP.Services.DTO.EvaluationDto
 
         [Display(Name = "Note Globale")]
         public int NoteGlobale { get; set; }
+
+        public Boutique Boutique { get; set; }
+        public User User { get; set; }
     }
 }
