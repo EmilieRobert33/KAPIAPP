@@ -1,0 +1,53 @@
+﻿@model KAPIAPP.Services.DTO.EvaluationDto.EvaluationToEditDto
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Editer</h1>
+
+<h4>Evaluation</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+
+            <div class="form-group">
+                <label asp-for="EvaluationDate" class="control-label"></label>
+                <input asp-for="EvaluationDate" class="form-control" />
+                <span asp-validation-for="EvaluationDate" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="NoteEquipe" class="control-label"></label>
+                <input asp-for="NoteEquipe" class="form-control" />
+                <span asp-validation-for="NoteEquipe" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NoteComportement" class="control-label"></label>
+                <input asp-for="NoteComportement" class="form-control" />
+                <span asp-validation-for="NoteComportement" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NoteProprete" class="control-label"></label>
+                <input asp-for="NoteProprete" class="form-control" />
+                <span asp-validation-for="NoteProprete" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NoteAgencement" class="control-label"></label>
+                <input asp-for="NoteAgencement" class="form-control" />
+                <span asp-validation-for="NoteAgencement" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Sauver" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Revenir à la liste</a>
+</div>
+

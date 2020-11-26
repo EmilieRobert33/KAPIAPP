@@ -1,0 +1,10 @@
+2020-09-10 16:36:20.6263 INFO récupération des System.Collections.Generic.List`1[KAPIAPP.Services.Entity.Boutique] boutique depuis la base de données
+2020-09-10 16:38:34.1028 INFO récupération des System.Collections.Generic.List`1[KAPIAPP.Services.Entity.Boutique] boutique depuis la base de données
+2020-09-10 16:38:47.7247 INFO Boutique avec id :5 retournée
+2020-09-10 16:38:50.0234 INFO récupération des System.Collections.Generic.List`1[KAPIAPP.Services.Entity.Boutique] boutique depuis la base de données
+2020-09-10 16:38:51.4254 INFO Boutique avec id :1 retournée
+2020-09-10 16:38:52.5418 INFO récupération des System.Collections.Generic.List`1[KAPIAPP.Services.Entity.Boutique] boutique depuis la base de données
+2020-09-10 16:38:53.6046 INFO Boutique avec id :4 retournée
+2020-09-10 16:38:56.3306 INFO récupération des System.Collections.Generic.List`1[KAPIAPP.Services.Entity.Boutique] boutique depuis la base de données
+2020-09-10 16:38:57.9374 INFO Boutique avec id :3 retournée
+2020-09-10 16:39:00.0087 INFO récupération des System.Collections.Generic.List`1[KAPIAPP.Services.Entity.Boutique] boutique depuis la base de données

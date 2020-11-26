@@ -1,0 +1,44 @@
+2020-05-12 11:07:25.6389 INFO récupération des boutique depuis la base de données
+2020-05-12 11:07:49.4859 INFO récupération des boutique depuis la base de données
+2020-05-12 11:12:36.6276 INFO récupération des boutique depuis la base de données
+2020-05-12 11:13:42.1232 INFO récupération des boutique depuis la base de données
+2020-05-12 11:13:44.2358 INFO Boutique avec id :5 retournée
+2020-05-12 11:13:51.2915 INFO récupération des boutique depuis la base de données
+2020-05-12 15:05:19.2522 INFO récupération des boutique depuis la base de données
+2020-05-12 15:07:50.3165 ERROR la boutique avec id: 0 n'existe pas dans la base
+2020-05-12 15:07:54.2665 INFO récupération des boutique depuis la base de données
+2020-05-12 15:18:16.6819 INFO récupération des boutique depuis la base de données
+2020-05-12 15:18:25.7268 INFO récupération des boutique depuis la base de données
+2020-05-12 15:56:25.9627 INFO récupération des boutique depuis la base de données
+2020-05-12 15:56:38.4451 INFO récupération des boutique depuis la base de données
+2020-05-12 15:57:32.7975 INFO récupération des boutique depuis la base de données
+2020-05-12 16:01:49.7369 INFO récupération des boutique depuis la base de données
+2020-05-12 16:02:23.5194 INFO récupération des boutique depuis la base de données
+2020-05-12 16:02:25.6169 INFO Boutique avec id :1 retournée
+2020-05-12 16:02:36.4564 INFO récupération des boutique depuis la base de données
+2020-05-12 16:13:40.8550 INFO récupération des boutique depuis la base de données
+2020-05-12 16:28:48.5119 INFO récupération des boutique depuis la base de données
+2020-05-12 16:29:36.1123 INFO récupération des boutique depuis la base de données
+2020-05-12 16:29:41.0685 INFO Boutique avec id :1 retournée
+2020-05-12 16:29:42.7482 INFO récupération des boutique depuis la base de données
+2020-05-12 16:29:59.3111 INFO récupération des boutique depuis la base de données
+2020-05-12 16:35:28.1853 INFO récupération des boutique depuis la base de données
+2020-05-12 16:37:23.3402 INFO récupération des boutique depuis la base de données
+2020-05-12 16:37:31.2269 INFO récupération des boutique depuis la base de données
+2020-05-12 16:37:46.9237 INFO récupération des boutique depuis la base de données
+2020-05-12 16:37:58.2935 INFO récupération des boutique depuis la base de données
+2020-05-12 16:39:46.0909 INFO récupération des boutique depuis la base de données
+2020-05-12 16:42:22.2975 INFO récupération des boutique depuis la base de données
+2020-05-12 16:42:23.6425 DEBUG user id: 22f6a9e6-f437-48b3-b0c3-f0fc1a0e5c03
+2020-05-12 16:44:40.1895 INFO récupération des boutique depuis la base de données
+2020-05-12 16:44:42.4104 DEBUG user id: 22f6a9e6-f437-48b3-b0c3-f0fc1a0e5c03
+2020-05-12 16:52:27.3605 INFO récupération des boutique depuis la base de données
+2020-05-12 16:52:29.0413 DEBUG user id: 22f6a9e6-f437-48b3-b0c3-f0fc1a0e5c03
+2020-05-12 16:53:28.5406 INFO récupération des boutique depuis la base de données
+2020-05-12 16:53:29.7513 DEBUG user id: 22f6a9e6-f437-48b3-b0c3-f0fc1a0e5c03
+2020-05-12 16:55:35.4166 INFO récupération des boutique depuis la base de données
+2020-05-12 16:55:37.0884 DEBUG user id: 22f6a9e6-f437-48b3-b0c3-f0fc1a0e5c03
+2020-05-12 16:55:41.6672 DEBUG user id IN CREATEpOST: 22f6a9e6-f437-48b3-b0c3-f0fc1a0e5c03
+2020-05-12 16:56:52.6342 INFO récupération des boutique depuis la base de données
+2020-05-12 16:56:53.7750 DEBUG user id: 22f6a9e6-f437-48b3-b0c3-f0fc1a0e5c03
+2020-05-12 16:56:57.9310 DEBUG user id IN CREATEpOST: 22f6a9e6-f437-48b3-b0c3-f0fc1a0e5c03

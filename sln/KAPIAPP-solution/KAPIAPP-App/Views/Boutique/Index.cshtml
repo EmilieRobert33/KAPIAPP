@@ -1,0 +1,68 @@
+﻿@*@model IEnumerable<KAPIAPP.Services.DTO.BoutiqueDto.BoutiqueListeDto>*@
+@model PagedList<KAPIAPP.Services.Entity.Boutique>
+
+<h1>Liste des Boutiques</h1>
+
+<p>
+    <a asp-action="Create">Ajouter une nouvelle boutique</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @*@Html.DisplayNameFor(model => model.Name)*@
+                Nom
+
+            </th>
+            <th>
+                @*@Html.DisplayNameFor(model => model.City)*@
+                Ville
+            </th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.City)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
+                <td>
+                    <a asp-controller="Evaluation" asp-action="Create" asp-route-id="@item.Id">Evaluer</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@{
+    var prevDisabled = !Model.HasPrevious ? "disabled" : "";
+    var nextDisabled = !Model.HasNext ? "disabled" : "";
+}
+<div class="mb-5">
+    <a asp-action="Index"
+       asp-route-sortOrder="@ViewData["CurrentSort"]"
+       asp-route-pageNumber="@(Model.CurrentPage - 1)"
+       asp-route-currentFilter="@ViewBag.CurrentFilter"
+       class="btn btn-outline-dark @prevDisabled">
+        Précédent
+    </a>
+    <a asp-action="Index"
+       asp-route-sortOrder="@ViewData["CurrentSort"]"
+       asp-route-pageNumber="@(Model.CurrentPage + 1)"
+       asp-route-currentFilter="@ViewBag.CurrentFilter"
+       class="btn btn-primary @nextDisabled">
+        Suivant
+    </a>
+</div>
+

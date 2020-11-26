@@ -1,0 +1,116 @@
+﻿@*@model IEnumerable<KAPIAPP.Services.DTO.EvaluationDto.EvaluationListeDto>*@
+@model PagedList<KAPIAPP.Services.Entity.Evaluation>
+@*@model PagedList<KAPIAPP.Services.DTO.EvaluationDto.EvaluationListeDto>*@
+
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h1>Liste des évaluation</h1>
+
+@*<p>
+        <a asp-action="Create" class="btn btn-primary">Nouvelle évaluation</a>
+    </p>*@
+
+@using (Html.BeginForm("Index", "Evaluation", FormMethod.Get))
+{
+    <p>
+        Chercher par Boutique: @Html.TextBox("boutiqueName", ViewBag.CurrentFilter as string)
+        <input class="btn btn-outline-primary" type="submit" value="Chercher" />
+    </p>
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @*@Html.DisplayNameFor(model => model.Boutique.Name)*@
+                @Html.ActionLink("Nom Boutique", "Index", new { sortOrder = ViewBag.NameSortParam, currentFilter = ViewBag.CurrentFilter })
+            </th>
+            <th>
+                @* @Html.DisplayNameFor(model => model.EvaluationDate)*@
+                @Html.ActionLink("Date évaluation", "Index", new { sortOrder = ViewBag.DateSortParam, currentFilter = ViewBag.CurrentFilter })
+            </th>
+            <th>
+                @* @Html.DisplayNameFor(model => model.NoteEquipe)*@
+                Note équipe
+            </th>
+            <th>
+                @* @Html.DisplayNameFor(model => model.NoteComportement)*@
+                Note Comportement
+            </th>
+            <th>
+                @*@Html.DisplayNameFor(model => model.NoteProprete)*@
+                Note Propreté
+            </th>
+            <th>
+                @*@Html.DisplayNameFor(model => model.NoteAgencement)*@
+                Note Agencement
+            </th>
+            <th>
+                @* @Html.DisplayNameFor(model => model.NoteGlobale)*@
+                Note Globale
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Boutique.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EvaluationDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NoteEquipe)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NoteComportement)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NoteProprete)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NoteAgencement)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NoteGlobale)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Supprimer</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<br />
+@{
+    var prevDisabled = !Model.HasPrevious ? "disabled" : "";
+    var nextDisabled = !Model.HasNext ? "disabled" : "";
+}
+<div class="mb-5">
+    <a asp-action="Index"
+       asp-route-sortOrder="@ViewData["CurrentSort"]"
+       asp-route-pageNumber="@(Model.CurrentPage - 1)"
+       asp-route-currentFilter="@ViewBag.CurrentFilter"
+       class="btn btn-outline-dark @prevDisabled">
+        Précédent
+    </a>
+    <a asp-action="Index"
+       asp-route-sortOrder="@ViewData["CurrentSort"]"
+       asp-route-pageNumber="@(Model.CurrentPage + 1)"
+       asp-route-currentFilter="@ViewBag.CurrentFilter"
+       class="btn btn-primary @nextDisabled">
+        Suivant
+    </a>
+
+</div>
+
+

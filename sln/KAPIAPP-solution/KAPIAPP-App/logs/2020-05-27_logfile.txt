@@ -1,0 +1,18 @@
+2020-05-27 10:22:34.9339 INFO récupération des 5 boutique depuis la base de données
+2020-05-27 10:22:44.1284 INFO récupération des 5 boutique depuis la base de données
+2020-05-27 10:23:15.9438 INFO récupération des 5 boutique depuis la base de données
+2020-05-27 10:23:17.2789 INFO Boutique avec id :1 retournée
+2020-05-27 10:23:23.1347 INFO récupération des 5 boutique depuis la base de données
+2020-05-27 10:23:24.7409 INFO Boutique avec id :3 retournée
+2020-05-27 10:23:27.1890 INFO récupération des 5 boutique depuis la base de données
+2020-05-27 10:23:30.8125 INFO Boutique avec id :1 retournée
+2020-05-27 10:23:32.1665 INFO récupération des 5 boutique depuis la base de données
+2020-05-27 10:23:33.5406 INFO Boutique avec id :5 retournée
+2020-05-27 10:23:34.8860 INFO récupération des 5 boutique depuis la base de données
+2020-05-27 10:23:40.0293 INFO Boutique avec id :2 retournée
+2020-05-27 10:23:41.5143 INFO récupération des 5 boutique depuis la base de données
+2020-05-27 10:23:43.8027 INFO Boutique avec id :2 retournée
+2020-05-27 10:23:45.0426 INFO récupération des 5 boutique depuis la base de données
+2020-05-27 10:23:58.0652 INFO récupération des 5 boutique depuis la base de données
+2020-05-27 10:24:00.6738 INFO Boutique avec id :2 retournée
+2020-05-27 10:24:03.9137 INFO récupération des 5 boutique depuis la base de données

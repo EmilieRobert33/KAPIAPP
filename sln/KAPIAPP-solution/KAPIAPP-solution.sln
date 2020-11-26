@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KAPIAPP-App", "KAPIAPP-App\KAPIAPP-App.csproj", "{DB78A893-1B65-4ED1-920C-416E5F00556C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-Application", "01-Application", "{7B7AC214-3264-4A87-BFB6-EE8CD7925296}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-Business", "02-Business", "{EDAAD8E2-820D-4B45-B1D1-77F9F15316D4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KAPIAPP.Services", "KAPIAPP.Services\KAPIAPP.Services.csproj", "{EE56BE09-0F4D-42AC-BB2E-EF7573FC21C5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-Services", "03-Services", "{66BA8B11-C33E-4345-98E0-5DD1B3EE9960}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoggerService", "LoggerService\LoggerService.csproj", "{6F1C12A2-DA43-4124-8AF3-A3E1DB07D902}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmailService", "D:\tuto\tuto_email\email-attachments-aspnet-core\EmailApp\EmailService\EmailService.csproj", "{3EC89E86-ABA8-4E44-A8D4-EA429D85C1C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB78A893-1B65-4ED1-920C-416E5F00556C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB78A893-1B65-4ED1-920C-416E5F00556C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB78A893-1B65-4ED1-920C-416E5F00556C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB78A893-1B65-4ED1-920C-416E5F00556C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE56BE09-0F4D-42AC-BB2E-EF7573FC21C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE56BE09-0F4D-42AC-BB2E-EF7573FC21C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE56BE09-0F4D-42AC-BB2E-EF7573FC21C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE56BE09-0F4D-42AC-BB2E-EF7573FC21C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F1C12A2-DA43-4124-8AF3-A3E1DB07D902}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F1C12A2-DA43-4124-8AF3-A3E1DB07D902}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F1C12A2-DA43-4124-8AF3-A3E1DB07D902}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F1C12A2-DA43-4124-8AF3-A3E1DB07D902}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EC89E86-ABA8-4E44-A8D4-EA429D85C1C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EC89E86-ABA8-4E44-A8D4-EA429D85C1C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EC89E86-ABA8-4E44-A8D4-EA429D85C1C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EC89E86-ABA8-4E44-A8D4-EA429D85C1C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DB78A893-1B65-4ED1-920C-416E5F00556C} = {7B7AC214-3264-4A87-BFB6-EE8CD7925296}
+		{EE56BE09-0F4D-42AC-BB2E-EF7573FC21C5} = {EDAAD8E2-820D-4B45-B1D1-77F9F15316D4}
+		{6F1C12A2-DA43-4124-8AF3-A3E1DB07D902} = {66BA8B11-C33E-4345-98E0-5DD1B3EE9960}
+		{3EC89E86-ABA8-4E44-A8D4-EA429D85C1C1} = {66BA8B11-C33E-4345-98E0-5DD1B3EE9960}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D1AFC850-335F-4334-8C1A-81A303300738}
+	EndGlobalSection
+EndGlobal

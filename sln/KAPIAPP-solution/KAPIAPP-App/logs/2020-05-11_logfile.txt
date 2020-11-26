@@ -1,0 +1,4 @@
+2020-05-11 16:08:54.7126 INFO récupération des boutique depuis la base de données
+2020-05-11 16:10:31.5617 INFO récupération des boutique depuis la base de données
+2020-05-11 16:14:32.1822 INFO récupération des boutique depuis la base de données
+2020-05-11 16:39:47.0310 INFO récupération des boutique depuis la base de données
