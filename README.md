@@ -8,8 +8,8 @@ pattern : MVC, Repository pattern
 
 # Information
 - dans appsettings renseigner vos données 
-pour la configuration du service mail
-ps: si vous utilisez gmail, dans les paramètre de vostre compte, autoriser l'accès à des apllications moins sécurisées
+pour la configuration du service mail.
+PS: si vous utilisez gmail, dans les paramètres de votre compte, autorisez l'accès à des apllications moins sécurisées
 
 - modifier la connection string pour la connection à la BDD
 
